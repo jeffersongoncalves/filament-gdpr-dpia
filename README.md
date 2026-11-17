@@ -23,7 +23,7 @@ Write the data protection impact assessments (DPIA, GDPR Art. 35) of [laravel-gd
 - **Missing assessments:** lists the processing activities with special category (Art. 9) or criminal (Art. 10) data and no assessment yet (Art. 35(3)(b)).
 - **Prior consultation:** a column flags assessments whose highest residual risk is still high, so you consult the supervisory authority first (Art. 36).
 - **Export (JSON)** for each assessment.
-- English (more languages coming).
+- 19 languages.
 
 ## Compatibility
 
