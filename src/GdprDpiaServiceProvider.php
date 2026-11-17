@@ -2,17 +2,17 @@
 
 namespace JeffersonGoncalves\Filament\GdprDpia;
 
+use JeffersonGoncalves\FilamentPluginCore\BasePackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class GdprDpiaServiceProvider extends PackageServiceProvider
+class GdprDpiaServiceProvider extends BasePackageServiceProvider
 {
+    public static string $name = 'filament-gdpr-dpia';
+
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('filament-gdpr-dpia')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigrations();
+            ->name(static::$name)
+            ->hasTranslations();
     }
 }
